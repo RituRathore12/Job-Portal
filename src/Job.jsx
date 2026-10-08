@@ -6,7 +6,7 @@ const Job = ({savedJobs, setSavedJobs }) => {
   useEffect(()=>{
     const getJobs = async () =>{
       try {
-        const res = await fetch("http://localhost:5000/api/jobs")
+        const res = await fetch("https://YOUR-BACKEND.vercel.app/api/jobs")
         const data =  await res.json();
         setjobs(data);
       } catch (error) {
