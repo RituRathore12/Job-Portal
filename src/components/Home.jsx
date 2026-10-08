@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Navbar from '../Pages/Navbar'
 import Job from '../Job'
 import Popjob from './Popjob' 
-import SavedJobs from '../Savedjobs'
+import SavedJobs from './Savedjobs'
 const Home = ({savedJobs,setSavedJobs}) => {
   return (
     <div>
