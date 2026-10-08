@@ -1,0 +1,46 @@
+.hero-img{
+  width: 100%;
+ max-width: 500px;
+  height: 300px;
+  background-image: url("./assets/Job.png");
+  background-size: cover;
+}
+.navbar-brand ,.nav-link{
+  font-weight: 800;
+}
+.hero-text h1{
+font-size: 60px;
+font-weight: 800;
+}
+.search-box input{
+ width: 300px;
+ margin-right: 20px;
+}
+
+@media (max-width : 768px) {
+  .hero-img{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+  }
+}
+.job h1{
+  font-weight: 800;
+}
+.job h4{
+  font-weight: 700;
+}
+.text{
+  font-weight: 800;
+}
+.Apply input{
+  width: 500px;
+}
+.c{
+  width: 120px;
+  height: 150px;
+}
+.code-icon{
+  width: 40px;
+  font-size: x-large;
+}
