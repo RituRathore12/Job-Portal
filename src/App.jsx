@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Job from "./Job";
 import Apply from "./Pages/Apply";
 import Popjob from "./components/Popjob";
-import SavedJobs from "./Savedjobs";
+import SavedJobs from "./SavedJobs";
 const App = () => {
   const [savedJobs, setSavedJobs] = useState([]);
   return (
